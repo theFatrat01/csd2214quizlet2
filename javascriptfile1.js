@@ -1,7 +1,7 @@
 function waitingfn(timeinms){
-    const futuretime=Date.now() =timeinms;
+    const futuretime=Date.now() +timeinms;
     while (futuretime > Date.now()){
-        
+
     }
 }
 waitingfn(3000);
