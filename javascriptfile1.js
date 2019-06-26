@@ -4,5 +4,6 @@ function waitingfn(timeinms){
 
     }
 }
+debugger;
 waitingfn(3000);
 console.log("fuction call has just ended");
